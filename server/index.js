@@ -3,6 +3,6 @@ const app = express();
 const { SERVER_PORT, CONNECTION_STRING } = process.env
 
 
-app.listen(6969, () => {
+app.listen(SERVER_PORT, () => {
   console.log("Listening boi");
 });
